@@ -1,0 +1,51 @@
+body
+{
+    background-color: rgb(81, 233, 10);
+}
+
+h1
+{
+color: rgb(38,0,255);
+background-color: white;
+}
+
+#show_sketch
+{
+    float: right;
+}
+#score
+{
+    font-size: 20px;
+    margin-left: 5px;
+}
+
+#timer
+{
+    float: right;
+    font-size: 20px;
+    margin-right: 5px;
+}
+
+p
+{
+    font-size: 25px;
+    color: black;
+}
+
+#sketch_to_be_drawn
+{
+    color: red;
+    font-size: 25px;
+
+}
+
+canvas
+{
+    border: 5px solid white;
+    border-radius: 20px;
+    animation-name: example;
+    animation-duration: 4s;
+    margin-top: 50px;
+    animation-iteration-count: infinite;
+    position: center;
+}
